@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: salmon;
+}
+.btn-container{
+    height:25rem;
+    width:25rem;
+    border:1px solid black;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:repeat(6,1fr);
+    gap:8px;
+    background-color: #222020;
+    border-radius: 8px;
+}
+.btn{
+    height:11rem;
+    width:11rem;
+    border:2px solid black;
+    /* margin:9px; */
+    border-radius: 7px;
+    /* box-shadow: 0 0 10px aqua; */
+}
+.one{
+    grid-row:1/4;
+    grid-column: 1/4;
+    background-color: rgb(164, 6, 6);
+    margin-top:14px;
+    margin-left: 14px;
+     /* box-shadow: 0 0 10px aqua; */
+}
+.two{
+     grid-row:1/4;
+    grid-column: 4/7;
+    background-color: rgb(28, 168, 28);
+    margin-top: 14px;
+     /* box-shadow: 0 0 10px rgb(255, 13, 0); */
+}
+.three{
+     grid-row:4/7;
+    grid-column: 1/4;
+    background-color: rgb(188, 188, 14);
+    margin-left: 14px;
+     /* box-shadow: 0 0 10px rgb(255, 55, 0); */
+}
+.four{
+     grid-row: 4/7;
+    grid-column:  4/7;
+    background-color: rgb(6, 158, 218);
+     /* box-shadow: 0 0 10px rgb(0, 255, 200); */
+}
+.flash{
+    background-color: white;
+}
+.over{
+    background-color: red;
+}
